@@ -60,6 +60,8 @@
 }
 
 .page-module___8aEwW__ctas a {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   border-radius: 128px;
   height: 48px;
