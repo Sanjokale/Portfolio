@@ -1,1 +1,24 @@
-{}
+{
+  "[project]/src/components/ui/Glob.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/ui/Glob.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/src_fac53063._.js",
+      "static/chunks/node_modules_three_build_three_core_df0bde7e.js",
+      "static/chunks/node_modules_three_build_three_webgpu_7a2ff5c5.js",
+      "static/chunks/node_modules_three_build_three_tsl_9110f63a.js",
+      "static/chunks/node_modules_three_build_three_module_230a9f89.js",
+      "static/chunks/node_modules_three_build_three_module_90b4155f.js",
+      "static/chunks/node_modules_three_examples_jsm_90b6812c._.js",
+      "static/chunks/node_modules_d3-geo_src_d783167a._.js",
+      "static/chunks/node_modules_robust-predicates_5981771c._.js",
+      "static/chunks/node_modules_h3-js_dist_browser_h3-js_es_d64818f0.js",
+      "static/chunks/node_modules_three-globe_dist_three-globe_mjs_545799d5._.js",
+      "static/chunks/node_modules_react-reconciler_cjs_react-reconciler_development_147ccfc7.js",
+      "static/chunks/dd92d_modules_react-reconciler_cjs_react-reconciler-constants_development_b6fd991f.js",
+      "static/chunks/node_modules_react-reconciler_01bbad99._.js",
+      "static/chunks/node_modules_@react-three_fiber_dist_beb89932._.js",
+      "static/chunks/node_modules_5eb01e9b._.js",
+      "static/chunks/src_components_ui_Glob_jsx_e3ced787._.js"
+    ]
+  }
+}
