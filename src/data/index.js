@@ -34,6 +34,34 @@ export const gridItems = [
   },
 ];
 
+export const projects = [
+  {
+    id: 1,
+    title: "Shikshyalaya:School Management System",
+    des: "A comprehensive school management system that helps administrators, teachers, and students manage academic activities, assignmets, and grades.",
+    img: "/p1.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "/ui.earth.com",
+  },
+  {
+    id: 2,
+    title: "Snapgram-Social Media App",
+    des: "A backend implementation of core YouTube features including user authentication, video uploads, comments, and likes using Express.js.",
+    img: "/p2.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "/ui.yoom.com",
+  },
+  {
+    id: 3,
+    title: "youtube-backend",
+    des: "A backend implementation of core YouTube features including user authentication, video uploads, comments, subscribes and likes using Express.js.",
+    img: "/p3.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "/ui.aiimg.com",
+  }
+ 
+];
+
 export const testimonials = [
   {
     quote:
