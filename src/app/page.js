@@ -4,6 +4,7 @@ import { navItems } from "@/data";
 import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import Approach from "@/components/Approach";
+import Blogs from "@/components/Blog";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Blogs />
         <Approach />
       </div>
     </main>
