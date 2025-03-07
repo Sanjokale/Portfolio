@@ -5,6 +5,7 @@ import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import Approach from "@/components/Approach";
 import Blogs from "@/components/Blog";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <RecentProjects />
         <Blogs />
         <Approach />
+        <Footer />
       </div>
     </main>
   );
