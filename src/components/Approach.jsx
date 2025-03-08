@@ -10,7 +10,7 @@ const Approach = () => {
       <h1 className=" font-bold text-4xl md:text-5xl text-center">
         My <span className=" text-purple">approach</span>
       </h1>
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center  w-full gap-4 mx-auto px-8">
+      <div className="my-20 flex flex-col lg:flex-row items-center justify-center  w-full gap-4 mx-auto p-4">
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}

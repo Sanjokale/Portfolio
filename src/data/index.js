@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Blogs", link: "#blogs" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -40,70 +40,53 @@ export const projects = [
     id: 1,
     title: "Shikshyalaya:School Management System",
     des: "A comprehensive school management system that helps administrators, teachers, and students manage academic activities, assignmets, and grades.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    img: "/sikshyalaya.png",
+    iconLists: ["/next.svg", "/tail.svg", "/mongoDB.svg", "/node.svg", "/express.svg"],
+    link: "https://github.com/Sanjokale/shikshyalaya",
   },
   {
     id: 2,
     title: "Snapgram-Social Media App",
     des: "A backend implementation of core YouTube features including user authentication, video uploads, comments, and likes using Express.js.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    img: "/SnapGram.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/mongoDB.svg", "/express.svg", "/node.svg"],
+    link: "https://github.com/Sanjokale/snapgram",
   },
   {
     id: 3,
     title: "youtube-backend",
     des: "A backend implementation of core YouTube features including user authentication, video uploads, comments, subscribes and likes using Express.js.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    img: "/youtube.webp",
+    iconLists: ["/node.svg", "/express.svg", "/mongoDB.svg", "/javascript.svg"],
+    link: "https://github.com/Sanjokale/backend",
   },
 ];
 
 export const recentBlogs = [
   {
     id: 1,
-    title: "Building Scalable APIs with Node.js",
-    des: "Learn how to create robust and scalable RESTful APIs using Node.js, Express, and MongoDB.",
-    date: "March 15, 2024",
-    image: "/placeholder.svg?height=400&width=600",
-    url: "#",
+    title: "Redux toolkit setup with Next.js",
+    des: " Learn how to set up Redux Toolkit with Next.js to manage global state in your React applications.",
+    image: "/reduxNext.jpg",
+    url: "https://dev.to/sanjokale/minimal-way-to-setup-redux-toolkit-4pg",
     readTime: "8 min read",
   },
   {
     id: 2,
-    title: "Mastering React for Modern Web Development",
-    des: "A comprehensive guide to building dynamic and responsive web applications with React.",
-    date: "March 20, 2024",
-    image: "/placeholder.svg?height=400&width=600",
-    url: "#",
+    title: "JWT authentication with Node.js and Express.js",
+    des: " Learn how to set up JWT authentication with Node.js and Express.js to secure your RESTful APIs.",
+    image: "/jwt_05.jpg",
+    url: "https://dev.to/sanjokale/jwt-authentication-in-expressjs-using-cookies-27gi",
     readTime: "12 min read",
   },
-  {
-    id: 3,
-    title: "Introduction to TypeScript: A Beginner's Guide",
-    des: "Discover the power of TypeScript and how it enhances JavaScript development.",
-    date: "March 25, 2024",
-    image: "/placeholder.svg?height=400&width=600",
-    url: "#",
-    readTime: "10 min read",
-  },
- 
 ];
-
-
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+
   {
     id: 3,
     img: "/link.svg",

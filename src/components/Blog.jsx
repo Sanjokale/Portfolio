@@ -1,9 +1,10 @@
 import React from "react";
 import { Button } from "@/components/ui/MovingBorderButton";
 import { recentBlogs } from "@/data";
+import Link from "next/link";
 const Blogs = () => {
   return (
-    <div className="w-full py-20">
+    <div id="blogs" className="w-full py-20">
       <div className=" flex flex-col items-center justify-center">
         <h1 className="font-bold text-4xl md:text-5xl text-center">
           My <span className="text-purple">Blogs</span>
@@ -12,25 +13,26 @@ const Blogs = () => {
           Thougths, tutorials and insights from my development journey
         </p>
       </div>
-      <div className=" my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4 px-8 mx-auto">
+      <div className=" my-20 flex flex-col lg:flex-row flex-wrap items-center justify-center gap-8 mx-auto">
         {recentBlogs?.map((item) => (
-          <div className=" relative flex justify-center items-center w-full">
-            <Button
-             
-              className=" flex flex-col p-2 gap-2 items-center justify-center"
-            >
+          <Link
+            href={item.url}
+            key={item.id}
+            className=" relative flex justify-center items-center"
+          >
+            <Button className=" flex flex-col p-2 gap-2 items-center justify-center">
               <div
                 className="relative w-full h-full overflow-hidden rounded-md"
                 style={{ backgroundColor: "#13162D" }}
               >
                 <div
-                  className="w-full h-full overflow-hidden lg:rounded-3xl"
+                  className="w-full h-full lg:rounded-3xl "
                   style={{ backgroundColor: "#13162D" }}
                 >
                   <img src="/bg.png" alt="bgimg" />
                 </div>
                 <img
-                  src="/p4.svg"
+                  src={item.image}
                   alt="cover"
                   className=" object-cover w-full h-full absolute bottom-0"
                 />
@@ -48,8 +50,12 @@ const Blogs = () => {
               >
                 {item.des}
               </p>
+
+              <p className=" flex justify-end items-center w-full">
+                {item.readTime}
+              </p>
             </Button>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
