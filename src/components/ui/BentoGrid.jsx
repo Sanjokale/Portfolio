@@ -68,7 +68,7 @@ export const BentoGridItem = ({
             {id === 3 ? <ColourfulText text={title}  /> : title}
           </div>
 
-          {/* {id === 2 && <GlobeDemo />} */}
+          {id === 2 && <GlobeDemo />}
 
           {/* Tech stack list div */}
           {id === 3 && (
