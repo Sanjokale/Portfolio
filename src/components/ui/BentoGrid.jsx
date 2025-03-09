@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 
 import { GlobeDemo } from "./GridGlobe";
+import { ColourfulText } from "./ColourfullText";
 
 export const BentoGrid = ({ className, children }) => {
   return (
@@ -64,7 +65,7 @@ export const BentoGridItem = ({
           <div
             className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
           >
-            {title}
+            {id === 3 ? <ColourfulText text={title}  /> : title}
           </div>
 
           {/* {id === 2 && <GlobeDemo />} */}

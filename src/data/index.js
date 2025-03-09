@@ -42,7 +42,7 @@ export const projects = [
     des: "A comprehensive school management system that helps administrators, teachers, and students manage academic activities, assignmets, and grades.",
     img: "/sikshyalaya.png",
     iconLists: ["/next.svg", "/tail.svg", "/mongoDB.svg", "/node.svg", "/express.svg"],
-    link: "https://github.com/Sanjokale/shikshyalaya",
+    link: "https://github.com/kaylinkhanal/sikshyalaya/tree/sanjokale",
   },
   {
     id: 2,
