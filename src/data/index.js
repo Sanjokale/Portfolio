@@ -41,7 +41,13 @@ export const projects = [
     title: "Shikshyalaya:School Management System",
     des: "A comprehensive school management system that helps administrators, teachers, and students manage academic activities, assignmets, and grades.",
     img: "/sikshyalaya.png",
-    iconLists: ["/next.svg", "/tail.svg", "/mongoDB.svg", "/node.svg", "/express.svg"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/mongoDB.svg",
+      "/node.svg",
+      "/express.svg",
+    ],
     link: "https://github.com/kaylinkhanal/sikshyalaya/tree/sanjokale",
   },
   {
@@ -49,7 +55,13 @@ export const projects = [
     title: "Snapgram-Social Media App",
     des: "A backend implementation of core YouTube features including user authentication, video uploads, comments, and likes using Express.js.",
     img: "/SnapGram.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/mongoDB.svg", "/express.svg", "/node.svg"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/mongoDB.svg",
+      "/express.svg",
+      "/node.svg",
+    ],
     link: "https://github.com/Sanjokale/snapgram",
   },
   {
@@ -85,10 +97,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Sanjokale",
   },
 
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/sanjok-alemagar-8a64811b9/",
   },
 ];

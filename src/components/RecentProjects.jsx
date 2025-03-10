@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const RecentProjects = () => {
   return (
-    <div id="projects" className="py-20">
+    <div id="projects" className="py-36">
       <h1 className=" font-bold text-4xl md:text-5xl text-center">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
